@@ -21,6 +21,7 @@ import (
 	"strings"
 )
 
+
 func main() {
 	reader := bufio.NewReader(os.Stdin)
 	s, _ := reader.ReadString('\n')
